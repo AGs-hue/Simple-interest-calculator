@@ -1,0 +1,23 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+h1{
+    color: green;
+    font-size: 160%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+form{
+    background-color: greenyellow;
+    width: 390px;
+    height: 300px;
+    box-sizing: border-box 3px solid black;;
+}
