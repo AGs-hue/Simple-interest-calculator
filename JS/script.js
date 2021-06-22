@@ -1,10 +1,11 @@
 var p,r,t,si;
-function calc()
+function calculator()
 {
-p = document.getElementById("p").value;
-r = document.getElementById("r").value;
-t = document.getElementById("t").value;
-si = document.getElementById("si");
-Simple Interest.innerHTML= "Simple Interest" + (p*r*t/100);
+const principal = document.getElementById("principal").value;
+const rate = document.getElementById("rate").value;
+const time = document.getElementById("time").value;
+const simple = (principal * rate * time)/100;
+result.innerHTML= "The simple interest is =" + simple;
+
 }
     

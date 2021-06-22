@@ -9,16 +9,21 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class=container>   
+        <h1>Simple Interest Calculator</h1>
         <form>
-            <h1>Simple Interest Calculator</h1>
-            Principal : <input type="text" name="p"><br>
-            Rate : <input type="text" name="r"><br>
-            Time : <input type="text" name="t"><br>
-            Simple Interest : <input type="text" name="simp"><br>
-            <input type="button" name="btn" value="Calculate si" onclick="calc()">
+            <label>Principal:</label>
+            <input type="number" id="principal"/><br>
+
+            <label>Rate:</label>
+            <input type="number" id="rate"/><br>
+
+            <label>Time:</label>
+            <input type="number" id="time"/><br>
         </form>
-       </div>
+
+        <button onclick="calculator()">Calculate</button>
+            <span id="result"></span>
+        
         
         <script src="js/script.js"></script>
     </body>
